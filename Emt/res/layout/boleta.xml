@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:background="@drawable/back_titulo">
+    
+        <TextView 
+            android:id="@+id/titulo_textview"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:text="BOLETA GENERADA" 
+            android:gravity="center" 
+            android:textColor="#2D2D2D" 
+            android:textSize="20sp" 
+            android:textStyle="bold"/>
+    
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="7sp">
+        
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5sp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="BOLETA DE AVISO, REQUERIMIENTO DE PAGO Y CETACION"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5sp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="DATOS DEL VEHICULO"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Tarjeta Circulación: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_tarjeta_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Placa: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_placa_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Tipo: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_tipo_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Marca: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_marca_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Empresa: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_empresa_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="No. Registro: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_registro_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="sector: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_sector_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Ruta: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_ruta_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5sp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="DATOS DEL INFRACTOR"
+                android:textColor="#000000"
+                android:textSize="15sp" 
+                android:textStyle="bold"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Nombre: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_nombre_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Apellidos: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_apellidos_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Dirección Domiciliar: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_direcciondomiciliar_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5sp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="LICENCIA"
+                android:textColor="#000000"
+                android:textSize="15sp" 
+                android:textStyle="bold"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Clasificacion: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_licenciaclasificacion_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="No. Licencia: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_licencianumero_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5sp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="DATOS DE LA INFRACCION"
+                android:textColor="#000000"
+                android:textSize="15sp" 
+                android:textStyle="bold"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Día: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mes: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Año: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hora: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/boleta_dia_textview"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp" android:gravity="center"/>
+            
+            <TextView
+                android:id="@+id/boleta_mes_textview"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp" android:gravity="center"/>
+            
+            <TextView
+                android:id="@+id/boleta_ano_textview"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp" android:gravity="center"/>
+            
+            <TextView
+                android:id="@+id/boleta_hora_textview"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp" android:gravity="center"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Lugar: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/boleta_direccion_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5sp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="INFRACCION AL REGLAMENTO DE TRANSPORTE PUBLICO COLECTIVO URBANO COMETIDA POR"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="Descripción: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/boleta_descripcion_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Artículo: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_articulo_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Inciso: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_inciso_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Valor: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/boleta_valor_textview"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="XXXX XXXX XXXX"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+            <Button 
+                android:id="@+id/boleta_finalizar_button"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="Finalizar"/>
+            
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+            <ImageView
+                android:id="@+id/boleta_foto_imageview"
+                android:layout_width="250sp"
+                android:layout_height="250sp"
+                />
+            
+        </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
